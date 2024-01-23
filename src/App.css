@@ -5,11 +5,11 @@
 :root{
     /*++++++++++Colors+++++++++*/
     /*Color mode HSL(hue,saturation,lightness)*/
-    --first-color:rgb(102, 51, 253);
-    --title-color:gray;
-    --text-color:rgb(235, 235, 235);
-    --body-color:rgb(41, 17, 77);
-    --container-color:rgb(190, 189, 189);
+    --first-color:rgb(54, 128, 100);
+    --title-color:rgb(138, 138, 138);
+    --text-color:rgb(152, 151, 151);
+    --body-color:rgb(235, 235, 235);
+    --container-color:rgb(195, 195, 195);
     --border-color:rgb(86, 86, 86);
     --text-white:#ffff;
     /*+++++++++++ Font & Topology ++++++++++++*/
@@ -76,9 +76,9 @@ img{
     display: grid;
     gap: 30px;
 }
-.section{
+/* .section{
     padding-block: 70px;
-}
+} */
 .section_title{
     font-size: var(--big-font-size);
     font-weight: var(--weight-800);
